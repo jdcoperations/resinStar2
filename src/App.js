@@ -1,28 +1,49 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import './App.css';
+import Particles from 'react-particles-js';
+import Navigation from "./components/Navigation/Navigation.js";
+import SlidePanel from "./components/SlidePanel/SlidePanel.js";
+import MainPanel from "./components/MainPanel/MainPanel.js";
+import FooterPanel from "./components/FooterPanel/FooterPanel.js";
+import ContactPanel from "./components/contactPanel/contact.js";
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Particles className="particle"
+            params={{
+                "particles": {
+                    "number": {
+                        "value": 250
+                    },
+                    "size": {
+                        "value": 1
+                    },
+                    "color": {
+                      "value": "#0F073D"
+                    },
+                    "line_linked": {
+                       "shadow": {
+                          "enable": true,
+                          "color": "#0F073D",
+                          "blur": 1
+                      }
+                    }
+                }
+              }} />
+        <Navigation />
+        <SlidePanel />
+        <MainPanel />
+        <ContactPanel />
+        <FooterPanel />
+        
       </div>
     );
   }
 }
+
+
 
 export default App;

@@ -1,5 +1,39 @@
+:root {
+  /*set custom pallette colors*/
+ --blue0: #7D75AE;
+ --blue1: #554B90;
+ --blue2: #392F76;
+ --blue3: #21175B;
+ --blue4: #0F073D;
+ --yellow0: #FBE79C;
+ --yellow1: #D0B85E;
+ --yellow2: #AA9134;
+ --yellow3: #836C13;
+ --yellow4: #584500;
+ --orange0: #FBC49C;
+ --orange1: #D08E5E;
+ --orange2: #AA6634;
+ --orange3: #834313;
+ --orange4: #582500;
+ --green0: #619C96;
+ --green1: #3A817A;
+ --green2: #206A62;
+ --green3: #0C514A;
+ --green4: #003631;
+}
+
 .App {
   text-align: center;
+}
+
+.particle {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-color: var(--orange0);
 }
 
 .App-logo {

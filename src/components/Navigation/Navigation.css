@@ -1,0 +1,56 @@
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	font-size: 2em;
+}
+
+
+.main-nav {
+	display: flex;
+	list-style: none;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-top: 0px;
+	font-size: 0.7em;
+	background-image: linear-gradient(to top right, var(--blue4), var(--orange3));
+}
+
+
+@media only screen and (max-width: 667px) {
+	.main-nav {
+		font-size: 0.5em;
+		padding: 5px;
+	}
+}
+
+.rhs-nav {
+	margin-left: auto;
+}
+
+li {
+	padding: 20px;
+}
+
+a {
+	color:  var(--orange0);
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+.heading {
+	color:  var(--orange0);
+	text-decoration: none;
+	padding: 20px;
+}
+
+a:hover {
+	font-size: 0.8em;
+}
+
+.selected {
+	color: var(--blue0);
+	text-decoration: underline;
+}

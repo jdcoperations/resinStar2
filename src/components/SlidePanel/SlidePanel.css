@@ -1,0 +1,63 @@
+.zone {
+	color: var(--orange0);
+	font-size: 2em;
+	border-radius: 4px;
+	border: 1px solid var(--blue4);
+	transition: all 0.3s linear;
+	/*margin: 10px; */
+}
+
+.biggy {
+	/*position: fixed;
+	top: 85px;*/
+	position: relative;
+	margin-top: 90px;
+	overflow: scroll;
+	z-index: 99;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/* cover area */
+.container {
+	margin-top: 20px;
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(to bottom right, var(--blue4), var(--orange3));
+
+}
+
+.smlContainer {
+	margin: 10px;
+	padding: 20px;
+	font-size: 0.9em;
+	height: 25vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(to bottom right, var(--blue4), var(--orange3));
+}
+
+.slideshow-container {
+	/*max-width: 100%;*/
+	
+	/*position: relative;*/
+	margin: 10px;
+	padding: 10px;
+}
+
+.carousel-style {
+	max-height: 100%;
+	height: 100% !important;
+}
+
+img {
+	padding: 10px;
+}
+@media only screen and (max-width: 667px) {
+	.mkeyImg {
+		max-height: 30vh;
+	}
+}
