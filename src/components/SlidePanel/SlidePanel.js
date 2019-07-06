@@ -1,10 +1,10 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './SlidePanel.css';
-import lorem from './images/lorem-photo.jpg';
-import pen from './images/pen.jpg';
-import bowl from './images/bowl.jpg';
-import ele from './images/ele.jpeg';
+import lorem from './images/lorem-photo2.jpg';
+import pen from './images/pen2.jpg';
+import bowl from './images/bowl2.jpg';
+import ele from './images/ele2.jpeg';
 
 var Carousel = require('react-responsive-carousel').Carousel;
 
@@ -13,7 +13,7 @@ const SlidePanel = () => {
 		
 		<div className="biggy">
 			<div className="zone container">
-			<Carousel showArrows={true} autoPlay={true} infiniteLoop={true} showThumbs={false} dynamicHeight={true} centerMode={false} >
+			<Carousel width={400} showArrows={false} autoPlay={true} infiniteLoop={true} showThumbs={false} dynamicHeight={true} showIndicators={false} centerMode={false} >
 				<div className="mySlides fade">
 					<img src={lorem} alt="an "/>
 					<p className="legend">Legend 1</p>

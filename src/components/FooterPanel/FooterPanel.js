@@ -4,7 +4,7 @@ import './FooterPanel.css';
 const FooterPanel = () => {
 	return (
 		<footer class="footerZone ftr">
-			Made by jdcopertations limited
+			<a href="https://www.jdcoperations.co.uk">Made by JDCOpertations Limited</a>
 		</footer>
 	)
 }
