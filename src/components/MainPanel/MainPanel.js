@@ -1,7 +1,7 @@
 import React from 'react';
 import './MainPanel.css';
-import loremphoto from './images/lorem-photo2.jpg';
-import pen from './images/pen2.jpg';
+import loremphoto from '../../images/img11-opt.jpg';
+import pen from '../../images/img10-opt.jpg';
 
 const MainPanel = () => {
 	return (

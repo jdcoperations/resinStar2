@@ -16,10 +16,10 @@ class App extends Component {
             params={{
                 "particles": {
                     "number": {
-                        "value": 250
+                        "value": 50
                     },
                     "size": {
-                        "value": 1
+                        "value": 2
                     },
                     "color": {
                       "value": "#0F073D"

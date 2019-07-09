@@ -1,10 +1,14 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './SlidePanel.css';
-import lorem from './images/lorem-photo2.jpg';
-import pen from './images/pen2.jpg';
-import bowl from './images/bowl2.jpg';
-import ele from './images/ele2.jpeg';
+import lorem from '../../images/img1-opt.jpg';
+import pen from '../../images/img2-opt.jpg';
+import bowl from '../../images/img3-opt.jpg';
+import ele from '../../images/img4-opt.jpg';
+import img5 from '../../images/img5-opt.jpg';
+import img6 from '../../images/img6-opt.jpg';
+import img7 from '../../images/img7-opt.jpg';
+
 
 var Carousel = require('react-responsive-carousel').Carousel;
 
@@ -30,6 +34,19 @@ const SlidePanel = () => {
 					<img src={ele} alt="an "/>
 					<p className="legend">Legend 4</p>
 				</div>
+				<div class="mySlides fade">
+					<img src={img5} alt="an "/>
+					<p className="legend">Legend 4</p>
+				</div>
+				<div class="mySlides fade">
+					<img src={img6} alt="an "/>
+					<p className="legend">Legend 4</p>
+				</div>
+				<div class="mySlides fade">
+					<img src={img7} alt="an "/>
+					<p className="legend">Legend 4</p>
+				</div>
+				
 			</Carousel>	
 			</div>
 			<showSlides />
